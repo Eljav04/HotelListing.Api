@@ -19,4 +19,8 @@
       <Content Include=".github\instructions\copilot-instructions.md" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include=".github\agents\api-security-reviewer.agent.md" />
+    </ItemGroup>
+
 </Project>

@@ -29,7 +29,7 @@ namespace HotelListing.Api.Controllers;
             
             return Ok(searchedHotel);
         }
-
+ 
         // POST api/<HotelsController>
         [HttpPost]
         public ActionResult<Hotel> Post([FromBody] Hotel newHotel)
